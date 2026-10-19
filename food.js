@@ -14,5 +14,19 @@ class Food {
         return this.#price;
     }
 }
+class Pizza extends Food {
+    constructor(name, price, size) {
+        super(name, price);
+        this.size = size;
+    }
+
+    getType() {
+        return "Pizza";
+    }
+
+    getDeliveryFee() {
+        return 25;
+    }
+}
 
 export { Food };
