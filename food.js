@@ -76,4 +76,4 @@ class Dessert extends Food {
         return 15;
     }
 }
-export { Food };
+export { Food, Pizza, Burger, Drink, Dessert};
