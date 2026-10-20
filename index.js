@@ -9,7 +9,7 @@ const order = new Order();
 const pizza = new Pizza("Margherita Pizza", 100, "Large");
 const burger = new Burger("Cheese Burger", 75, false);
 const drink = new Drink("Craneberry Juice", 25, "500ml");
-const dessert = new Dessert("Cheese Cake", 40, "Chocolate");
+const dessert = new Dessert("Cheese Cake", 40, "Cheese");
 
 // Adding each food object to the order
 order.addItem(pizza);
